@@ -1,13 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet');
+
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    color: #fafafa;
+    background-color: #33425E;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+ul,ol,dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.input {
+    padding: 10px;
+    padding-left: 50px;
+    outline: none;
+    font-size: 20px;
+    color: #272727;
+    border-style: none;
+    border-radius: 20px;
+    background: #C4C4C4;
+}
+.button {
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 4em;
+    color: #fafafa;
+    border-style: none;
+    border-radius: 20px;
+    background: #38D072;
+}
+.button:hover{cursor: pointer;}

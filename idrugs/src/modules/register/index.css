@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.box__left,
+.box__right,
+.logo__message{
+    display: flex;
+    margin: 50px 40px 0 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.box__right{
+    margin-top: 15rem;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+}
+input{
+    margin-top: 30px;
+}
